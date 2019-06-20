@@ -124,8 +124,6 @@ public class VideoPoker {
     
     public static int evaluateHand(String[] gotNewHand) {
         int winSum = 0;
-        int countDifferentSuit = 0;
-        int countDifferentRank = 0;
         int countSuitHarts = 0;
         int countSuitDiamonds = 0;
         int countSuitClubs = 0;
